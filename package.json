@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test:checker": "npx cypress run --spec cypress/e2e/MyFirstTest.cy.js --headed"
+    "test:checker": "npx cypress run --spec cypress/e2e/MyFirstTest.cy.js --headed",
+    "test:cards": "npx cypress run --spec cypress/e2e/BlackJackTest.cy.js --headed"
   },
   "author": "Yahya",
   "license": "ISC",
@@ -13,3 +14,4 @@
     "cypress": "^12.17.3"
   }
 }
+
